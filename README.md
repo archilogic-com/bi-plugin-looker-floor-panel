@@ -23,5 +23,3 @@
    ```bash
    npm run build
    ```
-
-Make sure `https://localhost:4443/floor-panel.js` is accesable.
