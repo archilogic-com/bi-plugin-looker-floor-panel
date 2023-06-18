@@ -9,6 +9,7 @@ looker.plugins.visualizations.add({
   create: function (element) {
     var floorContainer = document.createElement("div");
     floorContainer.id = "fpe-plan";
+    var floorPlan;
 
     element.appendChild(floorContainer);
     setTimeout(() => {
