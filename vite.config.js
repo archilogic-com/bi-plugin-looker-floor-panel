@@ -9,7 +9,7 @@ export default defineConfig({
       root: "src",
       input: {
         main: path.resolve(__dirname, "src/main.js"),
-        fpe: path.resolve(__dirname, "looker-fpe.js"),
+        fpe: path.resolve(__dirname, "src/looker-fpe.js"),
       },
       output: {
         outDir: "../",
