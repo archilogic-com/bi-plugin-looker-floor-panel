@@ -1,0 +1,18 @@
+{
+  "label": "Floor plan Visualization",
+  "category_label": "plug-ins",
+  "branding": {
+    "tagline": "Use the Floor plan visualization to display a floor plan and highlight specific nodes and assets."
+  },
+  "constants": {
+    "vis_label": {
+      "label": "Visualization Label",
+      "description": "This label will appear in the visualization selector in the Looker Explore UI."
+    },
+    "vis_id": {
+      "label": "Visualization ID",
+      "description": "This must be a unique ID across all visualizations.",
+      "value_constraint": "visualization"
+    }
+  }
+}
