@@ -5,9 +5,10 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     rollupOptions: {
+      input: "src/main.js",
       output: {
+        format: 'umd',
         inlineDynamicImports: true,
-        outDir: "../",
         entryFileNames: "main.js",
       },
     },
