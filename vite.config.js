@@ -1,18 +1,14 @@
 import { defineConfig } from "vite";
-import path from "path";
 import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()],
   build: {
     rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, "src/main.js"),
-        fpe: path.resolve(__dirname, "src/looker-fpe.js"),
-      },
       output: {
+        inlineDynamicImports: true,
         outDir: "../",
-        entryFileNames: "[name].js",
+        entryFileNames: "main.js",
       },
     },
   },

@@ -1,6 +1,7 @@
-const fpeScript = document.createElement("script");
-fpeScript.setAttribute("src", "/fpe.js");
-document.body.appendChild(fpeScript);
+// const fpeScript = document.createElement("script");
+// fpeScript.setAttribute("src", "/fpe.js");
+// document.body.appendChild(fpeScript);
+import './looker-fpe.js'
 
 looker.plugins.visualizations.add({
   id: "archilogic-floor-panel",
