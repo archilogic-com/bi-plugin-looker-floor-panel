@@ -6,7 +6,6 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     rollupOptions: {
-      root: "src",
       input: {
         main: path.resolve(__dirname, "src/main.js"),
         fpe: path.resolve(__dirname, "src/looker-fpe.js"),
